@@ -1,4 +1,4 @@
-(funtion { (window)
+(funtion (window) {
 
 var byeSpeaker = {};
 
