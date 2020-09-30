@@ -32,7 +32,7 @@ var insertHtml = function (selector, html) {
 // Show loading icon inside element identified by 'selector'.
 var showLoading = function (selector) {
   var html = "<div class='text-center'>";
-  html += "<img src='Images/ajax-loader.gif'></div>";
+  html += "<img src='images/ajax-loader.gif'></div>";
   insertHtml(selector, html);
 };
 
@@ -60,7 +60,7 @@ var switchMenuToActive = function () {
   }
 };
 
-// On page load (before Images or CSS)
+// On page load (before images or CSS)
 document.addEventListener("DOMContentLoaded", function (event) {
   
 // TODO: STEP 0: Look over the code from 
